@@ -49,8 +49,8 @@
 #define Force_en	  0x41 //Lock Mask
 
 // =============== TSM16C I2C Chip ID ================================================
-#define TSM16C_SLAVE_GND  0x68 //7bit address: 8bit address 0xD0<<1 //Chip_ID Pin = GND
-#define TSM16C_SLAVE_VDD  0x78 //7bit address: 8bit address 0xF0<<1 //Chip_ID Pin = VDD
+#define TSM16C_SLAVE_GND  0x68 //7bit address: 8bit address 0xD0>>1 //Chip_ID Pin = GND
+#define TSM16C_SLAVE_VDD  0x78 //7bit address: 8bit address 0xF0>>1 //Chip_ID Pin = VDD
 
 void  Init_TSM16C(void); //Initialize TSM16C (28QFN)
 
