@@ -128,7 +128,7 @@ void setup(){
 }
 void loop() {
 
-   byte read_data[3] = {0};
+   byte read_data[4] = {0};
    
    // Touch Key read
    Wire.beginTransmission(TSM16C_SLAVE_GND); // sned ic slave address
